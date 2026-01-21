@@ -1,0 +1,46 @@
+name: tlig_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.3
+  http: ^1.6.0
+  just_audio: ^0.10.5
+  url_launcher: ^6.3.2
+  audioplayers: ^6.5.1
+  webview_flutter: ^4.13.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.7
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/data.json
+    - assets/data/messages_by_date.json
+    - assets/data/messages_by_categories.json
+    - assets/prayer_book/
+    - assets/radio/
+    - assets/ecclesiastical/
+    - assets/testimonies/
+  
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/logo.png
+  android: true
+  ios: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
