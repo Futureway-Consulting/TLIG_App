@@ -1,4 +1,4 @@
-package com.example.tlig_app
+package com.futureway.tlig_app
 
 import io.flutter.embedding.android.FlutterActivity
 

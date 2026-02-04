@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:tlig_app/widgets/disclaimer.dart';
 import 'package:webview_flutter_android/webview_flutter_android.dart';
 
-import 'package:tlig_app/widgets/daily_devotions.dart';
 import 'package:tlig_app/widgets/message_display.dart';
 //import 'package:tlig_app/widgets/ecclesiastical_approval.dart';
 import 'package:tlig_app/widgets/testimonies.dart';
@@ -66,7 +65,6 @@ class _MainAppState extends State<MainApp> {
   Widget build(BuildContext context) {
     List<Widget> pages = [
       MessageDisplay(url: "https://ww3.tlig.org/en/the-messages/"),
-      DailyDevotions(),
       TligRadio(),
       //EcclesiasticalApproval(),
       Testimonies(),
