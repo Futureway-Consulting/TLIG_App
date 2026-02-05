@@ -26,14 +26,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/data/data.json
-    - assets/data/messages_by_date.json
-    - assets/data/messages_by_categories.json
-    - assets/prayer_book/
-    - assets/radio/
-    - assets/ecclesiastical/
-    - assets/testimonies/
+
   
 flutter_native_splash:
   color: "#FFFFFF"
