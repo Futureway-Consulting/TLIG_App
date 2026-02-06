@@ -1,7 +1,7 @@
 name: tlig_app
 description: "A new Flutter project."
 publish_to: 'none'
-version: 2.0.1+2
+version: 1.0.0+1
 
 environment:
   sdk: ^3.10.0
@@ -26,6 +26,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/data/data.json
+    - assets/data/messages_by_categories.json
+    - assets/data/messages_by_date.json
 
   
 flutter_native_splash:

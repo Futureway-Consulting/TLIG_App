@@ -41,10 +41,10 @@ class _MainAppState extends State<MainApp> {
 
   List<BottomNavigationBarItem> navitems = [
     BottomNavigationBarItem(icon: Icon(Icons.message), label: "Messages"),
-    BottomNavigationBarItem(
-      icon: Icon(Icons.perm_media_rounded),
-      label: "Media",
-    ),
+    // BottomNavigationBarItem(
+    //   icon: Icon(Icons.perm_media_rounded),
+    //   label: "Media",
+    //),
     BottomNavigationBarItem(icon: Icon(Icons.radio), label: "TLIGRadio"),
     //BottomNavigationBarItem(icon: Icon(Icons.approval), label: "Approvals"),
     BottomNavigationBarItem(
